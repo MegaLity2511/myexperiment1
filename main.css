@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  background-color: #000;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1080px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.unstyled-list {
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.site-header {
+  padding-block: 20px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-form {
+  position: relative;
+  width: 199px;
+  padding: 2px;
+  background-image: linear-gradient(90deg, #f00, #0019ff);
+  border-radius: 5px;
+}
+
+.header-form::after {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background-image: url("./images/searchison.svg");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: center;
+  content: "";
+}
+
+.header-input {
+  width: 100%;
+  padding: 6px 10px;
+  color: #ffffff80;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.header-link-box {
+  width: 95px;
+  padding: 2px;
+  background-image: linear-gradient(#52ff00, #8b44ff);
+  border-radius: 8px;
+}
+
+.header-link {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  text-decoration-line: none;
+}
+
+.hero {
+  padding-block: 214px;
+  background-image: url("./images/mainbgimage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero-title {
+  color: transparent;
+  background-image: linear-gradient(90deg, #FFC700 0%, #17D5D5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-box {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 3px;
+  border-radius: 10px;
+  background-image: linear-gradient(90deg, #ffc700, #ff62ef, #2200f4);
+}
+
+.box {
+  padding: 10px;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+
+.hero-title {
+  margin-block: 0;
+  font-size: 46px;
+  font-weight: 400;
+  background-image: linear-gradient(90deg, #ffc700, #17d5d5);
+  -webkit-background-clip: text;
+  color: transparent; 
+  background-clip: text;
+}
+
+.hero-desc {
+  margin-block: 0 20px;
+  color: #fff;
+  font-size: 36px;
+} 
+
+.hero-link-box {
+  display: inline-block;
+  padding: 2px;
+  background-image: linear-gradient(#52ff00, #8b44ff);
+  border-radius: 8px;
+}
+
+.hero-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  text-decoration-line: none;
+}
